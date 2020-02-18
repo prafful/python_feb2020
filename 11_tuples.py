@@ -43,9 +43,9 @@ print(sample[0])
 #sample[0] = 33
 sample = (44, 85, 45)
 print(sample)
-vovel1 = ('a','e','i')
-vovel2 = ('o','u')
-vovel = vovel1 + vovel2
+vowel1 = ('a','e','i')
+vowel2 = ('o','u')
+vowel = vowel1 + vowel2
 print(vovel)
 
 #TypeError: 'tuple' object doesn't support item deletion

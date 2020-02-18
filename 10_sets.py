@@ -45,7 +45,7 @@ print(score1)
 print(score2)
 print("score1 - score2: ", score1 - score2)
 # those elements of score2 which are not in score1
-print("score1 - score2: ", score2 - score1)
+print("score2 - score1: ", score2 - score1)
 
 for s in score1:
     print(s in score1)
