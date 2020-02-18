@@ -48,3 +48,6 @@ print(sum)
 #lambda way
 sum =  reduce( lambda a, b: a+b  , map( lambda a: a*a , filter(lambda n1: n1<10, numbers)))
 print(sum)
+
+
+number  = [1,1,1,1,4,4,4,2,2,2,1,2,]
