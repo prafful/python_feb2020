@@ -4,14 +4,14 @@ import time
 def getSquare(numList):
     print("Calculate Square of Numbers")
     for n in numList:
-        #time.sleep(1)
+        time.sleep(1)
         print("Square: " , n*n)
 
 
 def getCube(numList):
     print("Calculate Cube of Numbers")
     for n in numList:
-        #time.sleep(1)
+        time.sleep(1)
         print("Cube: ",n*n*n)
 
 t = time.time()
