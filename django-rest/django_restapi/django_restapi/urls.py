@@ -1,4 +1,4 @@
-"""newproject URL Configuration
+"""django_restapi URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.0/topics/http/urls/
@@ -15,27 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-
+from .api import routers
 
 urlpatterns = [
-
     path('admin/', admin.site.urls),
-    path('music/', include('music.urls'))
+    path('api/v1/', include(routers.urls) )
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
