@@ -3,3 +3,16 @@
 <b>Genre: </b> {{album.genre}} <br>
 <b>Logo: </b> <br>
 <img src="{{album.album_logo}}" alt="Album Logo" width="100" >
+<h3>Songs in {{ album.album_title}}</h3>
+<hr>
+{% if album.song_set.all  %}
+    <ol>
+        {% for song in album.song_set.all  %}
+            <li>
+                {{song.song_title}}
+            </li>
+        {% endfor %}
+    </ol>
+{%  else %}
+    <h4>There are no songs in album: {{album.album_title}}</h4>
+{% endif %}
