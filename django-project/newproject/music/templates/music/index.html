@@ -1,0 +1,9 @@
+<ul>
+    {% for album in allAlbums   %}
+        <li> 
+            <a href="{{album.id}}">
+                {{ album.album_title }}
+            </a>
+        </li>
+    {% endfor  %}
+</ul>

@@ -1,0 +1,41 @@
+? django-admin startproject newproject
+
+init - view this dir as python package
+settings - setting and connf options for website
+url.py - toc for website. loook at url the request came for and execute the functionality
+wsgi - website gateway interface
+asgi - 
+
+we will be using urls and 
+
+django comes with mini webserver
+
+? python manage.py runserver
+
+create apps (parts of website - help you organize different part of website. One app should do one work. If not, then break it further.)
+
+python manage.py startapp music
+
+migrations -> allows you to hook or connecct source code/website with database. One line allows you to do that!
+
+init -> it is a package
+admin -> almost every website has admin. CRUD for database.
+apps -> config for this app.
+models -> blueprint for database. How will you store the data for this app.
+	think of database for this app
+	albums
+	songs
+tests ->
+views -> python functions which take user requests and gives back response!
+
+there is admin section -> http://127.0.0.1:8000/admin/login/?next=/admin/
+
+url -> look through url pattern
+when pattern is found -> respond to user request!
+
+when user type music -> 
+the given file may get cluttered with all ursl from all apps. So break them apart!
+
+So, create urls.py in music app!
+import views
+

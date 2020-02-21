@@ -1,0 +1,20 @@
+1.
+Give the list:
+Original arrays:
+[-10, 20, 0, -31, 57, 77, 88, 19, -1]
+Write a python program to re-arrange the numbers in new list where all negative numbers are coming before all positive numbers in mix of ascending and descending sort. use lambda functions where applicable.
+Output (-ve numbers are in ascending order and +ve numbers are in descending order ): 
+[-1, -10, -31, 88, 77, 57, 20, 19, 0  ]
+
+Enhance the program to capture input from console.
+
+2. Consider the given string: 
+watchamacallits or dubreywotsis would have sounded silly
+Write a python program to code the frequency of each unique alphabet appearing in string.
+e.g. 
+w: 3
+a: 5
+t: 3
+c: 2
+l: 5
+.......so on and so forth!
